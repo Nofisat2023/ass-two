@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-color: #a4fefe;
+    background-color: rgba(46, 196, 182, 0.04);
     padding: 50px; 
     display: flex;
     justify-content: center;
@@ -110,6 +110,7 @@ section.right form .top{
 
 section.right form div input{
     margin: 10px 0 ;
+    padding: 12px;
     width: 238px;
     height: 60px;
     display: block;
@@ -137,9 +138,6 @@ section.right form .top .gender{
 section.right form div input:hover{
     border: rgb(179, 239, 222) 1px solid;
 }
-/* .bottom{
-    margin-left: 20px;
-} */
 
 section.right form .top .form-2 .password{
     margin-top: 10px;
@@ -174,7 +172,6 @@ label{
 }
 
 #text{
-    /* border: #737373 solid 1px; */
     width: 500px;
 }
 
@@ -193,8 +190,9 @@ width: 500px;
 
 button{
     border: none;
-    background: rgb(138, 227, 138);
+    background: rgba(46, 196, 182, 1);
     width: 500px;
+    color: rgba(255, 255, 255, 1);
     padding: 10px;
     margin-top: 20px;
     margin-left: 30px;
@@ -246,9 +244,6 @@ footer span{
     #text{
         width: 315px;
     }
-    /* input{
-        width: 315px;
-    } */
 
     button{
         width: 315px;
