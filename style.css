@@ -55,7 +55,7 @@ section.left{
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px)  {
     .left p.mobile-content{
         display: none;
     }
@@ -102,7 +102,7 @@ section.right form div input{
     border: rgb(217, 216, 216) 1px solid;
 }
 
-@media (min-width: 375px) and  (max-width: 500px) {
+@media (min-width: 375px) {
     section.right{
         width: 327px;
     }
@@ -133,7 +133,7 @@ section.right form div input:focus{
 }
 
 
-@media (min-width: 375px) and  (max-width: 600px) {
+@media (min-width: 375px)  {
     section.right form div input{
         width: 295px;
         height: 48px;
@@ -221,7 +221,7 @@ footer span{
     color: rgb(4, 148, 100);
 }
 
-@media (min-width: 375px) and (max-width:500px) {
+@media (min-width: 375px) {
     .container{
         display: block;
         width: 375px;
@@ -257,7 +257,7 @@ footer span{
 
 }
 
-@media (min-width: 375px) and  ( max-width: 600px){
+@media (min-width: 375px){
     select{
         width: 295px;
         height: 48px;
